@@ -1,0 +1,55 @@
+/* GoogleFont API */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
+
+/* isDone card 테두리 색상 #BF0404 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  /* background: linear-gradient(0deg, #404040, #ffa520, #404040); */
+  color: #111;
+  font-family: 'Noto Sans KR', 'Roboto', serif;
+}
+
+
+.add-todo-container {
+  /* background-color: aqua; */
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.add-todo-container .btn {
+  position: relative;
+  top: 29px;
+  left: 100px;
+  height: 100%;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding: 8px 20px;
+  box-shadow: 0px 0px 3px #333;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+.add-todo-container .btn:hover {
+  transform: rotate(15deg);
+}
+
+.todo-list-container {
+  /* background-color: pink; */
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+}
